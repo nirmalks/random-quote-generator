@@ -1,0 +1,68 @@
+
+a {
+    color: #fff;
+}
+
+.center-block{
+    float: none;
+}
+
+.quote {
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 500px;
+   border : 1px solid #ccc;
+   border-radius: 10px;
+}
+
+#quote-content {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.btns{
+    margin-top:45px;
+}
+#quote-author{
+    font-size: 1.3em;
+        text-align: center;
+}
+#tweetQuote {
+    float: right;
+}
+
+.btn-gen{
+    background: #ec066f;
+    padding: 10px;  
+    color: #fff;
+    border-color: #fff;
+    border-radius: 4px; 
+}
+
+.btn-gen :hover , a:hover ,.btn:hover{
+     background: #e0dede;
+      color: #ec066f;
+   cursor: pointer;
+   border-color: #fff;
+}
+
+
+.title{
+    color: #ec066f;
+}
+
+#quote-content .fa{
+    padding:10px;
+}
+
+@media screen and (max-width : 339px){
+    #tweetQuote {
+        float : left;
+    }
+}
+
+@media screen and (min-width : 1200px){
+  .btns{
+    margin-top:175px;
+}
+}
